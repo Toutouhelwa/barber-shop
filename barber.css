@@ -1,0 +1,281 @@
+/*part 1 template*/
+.box1{
+    display:flex;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color:#D5B981 ;
+}
+.box1-left{
+    position: relative;
+    top: 180px;
+    left: 180px;
+    width: 70%;
+    height: 70%;
+}
+.box1-left h1{
+    width:400px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 45px;
+    color:#1d2434 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box1-left p{
+    margin-left: 50px;
+    width: 500px;
+    color:#1d2434 ;
+}
+p{
+    color:grey;
+}
+.box1-left button{
+    margin-left: 50px;
+}
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #1d2434;
+    border-color: #1d2434;
+}
+.box1-left img{
+    position: absolute;
+    width: 100px;
+    margin-left:400px;
+    margin-top: 50px;
+}
+.box1-right{
+    position: absolute;
+    width: 40%;
+    right: 0;
+}
+.box1-right img{
+    position: absolute;
+    bottom: 220px;
+    right: 6px;
+    width: 70%;
+}
+/* part2 learn about us*/
+.learn-aboutus{
+    display: flex;
+    position: relative;
+    height: 510px;
+}
+.about-img{
+    display: flex;
+    position: relative;
+    width: 25%;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.about-img .background{
+    background-color: #1d2434;
+    position:relative;
+    width:300px;
+    height: 400px;
+}
+ .about-image .border{
+    position:absolute;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-left:30px ;
+    width: 300px;
+    height:400px;
+    z-index: 1;
+}
+.about-image .photo{
+position: absolute;
+width: 300px;
+height: 400px;
+margin-top: 60px ;
+margin-left:60px;
+}
+.about-img .photo img{
+    width:100% ;
+    height:400px;
+}
+/*partie 2 experience*/
+.experience{
+    margin-top: 120px;
+    margin-left: 10px;
+    width: 900px;
+}
+.experience p{
+
+    width: 700px;
+}
+.our-salon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titles{
+  text-align: center;
+  margin: 50px;
+}
+.mytitle{
+    width: 500px;
+    margin-top: -20px;
+}
+.titles h3 {
+    opacity: 0.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+/* services 1=>3*/
+.exp-cards{
+    width: 80%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    gap: 25px;
+}
+.haircut{
+    position: relative;
+    width: 25%;
+    height: 450px;
+    text-align: center;
+    background-color: #eef0f7;
+    
+}
+.haircut img{
+    width: 100%;
+    max-width: 100%;
+}
+.haircut h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1d2434;
+
+}
+.haircut p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    opacity: 0.8;
+
+}
+.haircut .border {
+    position: absolute;
+    width: 245px;
+    height: 175px;
+    right: 5px;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: transparent;
+    border: 1px solid white;
+    z-index: 1;
+
+}
+.beardstyle {
+    position: relative;
+    width: 25%;
+    height: 450px;
+    text-align: center;
+    background-color: #eef0f7;
+}
+
+.beardstyle img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.beardstyle h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1d2434;
+
+}
+
+.beardstyle p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+
+}
+.beardstyle .border {
+    position: absolute;
+    width: 245px;
+    height: 175px;
+    right: 5px;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: transparent;
+    border: 1px solid white;
+    z-index: 1;
+
+}
+.color-wash {
+    position: relative;
+    width: 25%;
+    height: 450px;
+    background-color: #eef0f7; 
+    text-align: center;
+}
+
+.color-wash img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.color-wash h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1d2434;
+
+}
+
+.color-wash p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.8;
+
+}
+.color-wash .border {
+    position: absolute;
+    width: 245px;
+    height: 175px;
+    right: 5px;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: transparent;
+    border: 1px solid white;
+    z-index: 1;
+}
+.prices-titles{
+    text-align: center;
+    margin: 50px;
+
+}
+.prices-titles h3{
+    margin-top: 70px;
+    opacity: 0.4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.price1{
+    display: flex;
+    flex-direction: row;
+    width:300px;
+    height: 70px;
+    text-align: center;
+    background-color: #c2cce2;
+}
+.price1 img{
+    position: relative;
+    width: 40%;
+}
+h5{
+    margin-left: 10px;
+    color: #1d2434;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3px;
+}
+.price1 p{
+    text-align: center;
+}
